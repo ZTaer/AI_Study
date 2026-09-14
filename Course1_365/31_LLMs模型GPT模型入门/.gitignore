@@ -1,0 +1,4 @@
+.env
+.ipynb_checkpoints/
+faiss_365_courses/
+rag_chat_history.json
