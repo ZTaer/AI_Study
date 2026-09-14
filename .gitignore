@@ -1,0 +1,49 @@
+# 环境变量与本地密钥配置（适用于所有子目录）
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# 本地虚拟环境；保留 environment.yml 和 requirements.txt 等配置
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter 自动检查点；正常的 .ipynb 文件仍可提交
+.ipynb_checkpoints/
+
+# Python 构建产物
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 测试覆盖率报告
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# 日志、临时文件与编辑器交换文件
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 不默认忽略课程数据、Notebook、图片或模型文件，按各课程需要单独配置。
