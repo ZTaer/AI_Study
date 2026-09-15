@@ -1,0 +1,7 @@
+{
+  "url": "https://365datascience.com/courses/",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "normalize_embeddings": true,
+  "chunk_size": 500,
+  "chunk_overlap": 100
+}
