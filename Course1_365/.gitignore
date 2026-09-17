@@ -49,4 +49,5 @@ Desktop.ini
 
 # 不默认忽略课程数据、Notebook、图片或模型文件，按各课程需要单独配置。
 
+# 34 训练数据文件夹
 xlnet_runs
